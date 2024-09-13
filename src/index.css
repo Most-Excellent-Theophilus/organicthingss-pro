@@ -159,3 +159,8 @@
  text-decoration: underline;
   
 }
+
+.blurred-image {
+  filter: blur(1px); /* Adjust the pixel value for more or less blur */
+ 
+}

@@ -1,4 +1,4 @@
-const dir = "http://127.0.0.1:8000/"
+const dir = "http://192.168.92.113:8000/"
 export const API = dir+"api/"
 export const PRODUCTS = "products/"
 export const ADMIN = "admin"
@@ -8,10 +8,11 @@ export type Product = {
     available: string;
     created_at: string;
     description: string;
-    id: number;
+    id: string;
     imagePath: string;
     name: string;
-    priceInMWK: number;
+    priceInMWK: string;
     slug: string;
     updated_at: string;
   };
+
